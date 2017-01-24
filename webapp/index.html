@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta charset="UTF-8">
+
+		<title>Nikki2</title>
+
+		<script id="sap-ui-bootstrap"
+			src="../../resources/sap-ui-core.js"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-resourceroots='{"sap.ui.bootcampNikki2": ""}'>
+		</script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<script>
+		
+		sap.ui.getCore().attachInit(function() {
+			sap.ui.xmlview({
+				viewName : "sap.ui.bootcampNikki2.view.App"
+			}).placeAt("content");
+			// sap.ui.getCore().attachInit(function () {
+	  //          new sap.m.Text({
+	  //             text : "username"
+	  //          }).placeAt("content");
+	            
+	  //  		new sap.m.Input({
+	  //  			type : "Text"
+	  //  		}).placeAt("content");
+	    		
+	  //  		new sap.m.Text({
+	  //             text : "password"
+	  //          }).placeAt("content");
+	            
+	  //  		new sap.m.Input({
+	  //  			type : "Text"
+	  //  		}).placeAt("content");
+	    		
+	  //  		new sap.m.Button({
+	  //  			text : "login"
+	  //  		}).placeAt("content");
+	    	
+         });
+		</script>
+	</head>
+
+	<body class="sapUiBody" id="content">
+	</body>
+
+</html>
